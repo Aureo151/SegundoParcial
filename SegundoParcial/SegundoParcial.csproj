@@ -52,6 +52,36 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormLector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLector.Designer.cs">
+      <DependentUpon>FormLector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLibro.Designer.cs">
+      <DependentUpon>FormLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrestamo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrestamo.Designer.cs">
+      <DependentUpon>FormPrestamo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporte.Designer.cs">
+      <DependentUpon>FormReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lector.cs" />
+    <Compile Include="LectorArchivo.cs" />
+    <Compile Include="Libro.cs" />
+    <Compile Include="LibroArchivo.cs" />
+    <Compile Include="Prestamo.cs" />
+    <Compile Include="PrestamoArchivo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
