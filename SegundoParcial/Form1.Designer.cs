@@ -36,9 +36,9 @@
             // 
             // btnLibros
             // 
-            this.btnLibros.Location = new System.Drawing.Point(173, 86);
+            this.btnLibros.Location = new System.Drawing.Point(62, 147);
             this.btnLibros.Name = "btnLibros";
-            this.btnLibros.Size = new System.Drawing.Size(129, 48);
+            this.btnLibros.Size = new System.Drawing.Size(203, 93);
             this.btnLibros.TabIndex = 0;
             this.btnLibros.Text = "Ir a Libros";
             this.btnLibros.UseVisualStyleBackColor = true;
@@ -46,9 +46,9 @@
             // 
             // btnLectores
             // 
-            this.btnLectores.Location = new System.Drawing.Point(432, 86);
+            this.btnLectores.Location = new System.Drawing.Point(551, 147);
             this.btnLectores.Name = "btnLectores";
-            this.btnLectores.Size = new System.Drawing.Size(129, 48);
+            this.btnLectores.Size = new System.Drawing.Size(153, 93);
             this.btnLectores.TabIndex = 1;
             this.btnLectores.Text = "Ir a Lectores";
             this.btnLectores.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@
             // 
             // btnPrestamos
             // 
-            this.btnPrestamos.Location = new System.Drawing.Point(173, 205);
+            this.btnPrestamos.Location = new System.Drawing.Point(310, 147);
             this.btnPrestamos.Name = "btnPrestamos";
-            this.btnPrestamos.Size = new System.Drawing.Size(129, 48);
+            this.btnPrestamos.Size = new System.Drawing.Size(172, 93);
             this.btnPrestamos.TabIndex = 2;
             this.btnPrestamos.Text = "Ir a Prestamos";
             this.btnPrestamos.UseVisualStyleBackColor = true;
@@ -66,13 +66,13 @@
             // 
             // btnReporte
             // 
-            this.btnReporte.Location = new System.Drawing.Point(432, 205);
+            this.btnReporte.Location = new System.Drawing.Point(310, 263);
             this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Size = new System.Drawing.Size(129, 48);
+            this.btnReporte.Size = new System.Drawing.Size(172, 93);
             this.btnReporte.TabIndex = 3;
             this.btnReporte.Text = "Ir a Reporte";
             this.btnReporte.UseVisualStyleBackColor = true;
-            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click_1);
             // 
             // Form1
             // 

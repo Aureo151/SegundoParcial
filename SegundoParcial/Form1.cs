@@ -37,6 +37,11 @@ namespace SegundoParcial
 
         private void btnReporte_Click(object sender, EventArgs e)
         {
+            ;
+        }
+
+        private void btnReporte_Click_1(object sender, EventArgs e)
+        {
             FormReporte formReporte = new FormReporte();
             formReporte.Show();
         }
